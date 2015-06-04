@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ConFive - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ConFive.res" /d "NDEBUG" /d "_AFXDLL" "D:\Chess Game Programs\Confive\ConFive1.2\ConFive.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP15.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ConFive.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Chess Game Programs\Confive\ConFive1.2\ConFive.cpp"
+"D:\Chess Game Programs\Confive\ConFive1.2\ConFiveDoc.cpp"
+"D:\Chess Game Programs\Confive\ConFive1.2\ConFiveView.cpp"
+"D:\Chess Game Programs\Confive\ConFive1.2\MainFrm.cpp"
+"D:\Chess Game Programs\Confive\ConFive1.2\Search.cpp"
+"D:\Chess Game Programs\Confive\ConFive1.2\Set.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP15.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP16.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ConFive.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Chess Game Programs\Confive\ConFive1.2\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP16.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP17.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/ConFive.pdb" /machine:I386 /out:"Release/ConFive.exe" 
+".\Release\ConFive.obj"
+".\Release\ConFiveDoc.obj"
+".\Release\ConFiveView.obj"
+".\Release\MainFrm.obj"
+".\Release\Search.obj"
+".\Release\Set.obj"
+".\Release\StdAfx.obj"
+".\Release\ConFive.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP17.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ConFive.cpp
+ConFiveDoc.cpp
+ConFiveView.cpp
+MainFrm.cpp
+Search.cpp
+Set.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ConFive.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
